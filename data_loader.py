@@ -2,7 +2,7 @@ import yfinance as yf
 import pandas as pd
 
 #hangi veriyi istiyoruz?/(Ex:Altın- GC=F veya Türk Hava Yolları- THYAO.IS)
-symbol = "GC-F"
+symbol = "GC=F"
 # 2. veriyi çekelim
 print(f"{symbol} veriler indiriliyor")
 data = yf.download(symbol, start="2023-01-01", end="2026-01-01")
